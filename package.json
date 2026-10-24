@@ -1,0 +1,13 @@
+{
+  "name": "nipun-kakkar-personal-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Personal website for Nipun Kakkar, AI Engineer and Data Scientist",
+  "scripts": {
+    "dev": "node serve.mjs",
+    "start": "node serve.mjs",
+    "check": "node --check dist/app.js && node --check dist/ai-demos.js && node --check serve.mjs",
+    "test": "node scripts/check-site.mjs"
+  }
+}
