@@ -20,3 +20,14 @@
 .career-highlights>li::marker{color:var(--accent)}
 @media(max-width:850px){.career-highlights{font-size:14px}}
 @media(max-width:640px){.career-highlights{font-size:15px}}
+
+.hero-profiles{display:flex;align-items:center;flex-wrap:wrap;gap:10px 18px;margin-top:22px}
+.profile-link{display:inline-flex;align-items:center;gap:8px;min-height:44px;font-size:15px;line-height:1.4;font-weight:600;color:var(--accent);white-space:nowrap}
+.profile-link>.profile-arrow{font-size:18px;line-height:1}
+.profile-apps{gap:8px;padding:10px 11px;border:1px solid #cdd8c5;border-radius:9px;background:#e8efdf;transition:background .2s,border-color .2s}
+.profile-apps>svg{width:18px;height:18px;flex:none}
+.profile-apps:hover{background:#dbe7d0;border-color:#b9cbae}
+.profile-link:not(.profile-apps):hover{text-decoration:underline;text-underline-offset:5px}
+.hero-profiles+.hero-facts{margin-top:28px}
+@media(max-width:850px){.hero-profiles{column-gap:16px}}
+@media(max-width:359px){.hero-profiles{gap:6px 20px}.profile-apps{flex-basis:100%;justify-content:center}.hero-profiles>.profile-link:not(.profile-apps){flex:1;justify-content:center}}
