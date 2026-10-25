@@ -31,3 +31,9 @@
 .hero-profiles+.hero-facts{margin-top:28px}
 @media(max-width:850px){.hero-profiles{column-gap:16px}}
 @media(max-width:359px){.hero-profiles{gap:6px 20px}.profile-apps{flex-basis:100%;justify-content:center}.hero-profiles>.profile-link:not(.profile-apps){flex:1;justify-content:center}}
+
+.hero h1{font-size:clamp(38px,5.7vw,88px);letter-spacing:-.055em;word-spacing:.08em;white-space:nowrap}
+.social-links{flex-wrap:wrap;gap:10px 20px}
+.social-links>a{min-height:44px;font-size:15px;gap:8px}
+.social-links>a>span:first-child{font-size:18px}
+@media(max-width:640px){.hero h1{font-size:clamp(36px,12.2vw,68px)}.social-links{gap:6px 16px}.social-links>a{font-size:14px;gap:7px}}
